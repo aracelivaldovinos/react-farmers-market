@@ -1,0 +1,15 @@
+.schedule-col{
+  padding: 15px;
+  border: 1px solid #e7e7e7;
+}
+
+.schedule-item{
+  text-align: center;
+}
+
+.schedule-day p {
+  font-weight: bolder;
+  
+}
+
+
