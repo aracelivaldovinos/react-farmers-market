@@ -1,0 +1,33 @@
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  border-radius: 4px;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.navbar ul li a:hover:not(.active){
+  background-color: #ddd;
+}
+
+.navbar ul li a.active{
+  color: white;
+  background-color: #f07167;
+}
