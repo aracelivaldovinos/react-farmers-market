@@ -4,7 +4,7 @@ import  { Navbar, Nav, Container} from 'react-bootstrap';
 const NavBar = () => {
   return ( 
     <Container>
-      <Navbar expand="lg" variant="light" bg="light">
+      <Navbar expand="lg" variant="dark" bg="dark">
         <Container>
           <Navbar.Brand href="#">Farmers Market</Navbar.Brand>
             <Nav className="me-auto">

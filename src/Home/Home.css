@@ -3,3 +3,8 @@
  background-position: center;
  background-size: cover;
 }
+
+.home{
+  background-color: rgba(181, 201, 154, 0.25)
+  /* background-color: #efd3d7; */
+}

@@ -1,6 +1,7 @@
 .schedule-col{
   padding: 15px;
   border: 1px solid #e7e7e7;
+  background-color: white;
 }
 
 .schedule-item{
@@ -9,7 +10,12 @@
 
 .schedule-day p {
   font-weight: bolder;
-  
 }
+
+.month{
+  text-align: center;
+}
+
+
 
 

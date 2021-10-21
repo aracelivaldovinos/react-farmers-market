@@ -1,4 +1,5 @@
 import { Row, Col, Container } from 'react-bootstrap';
+import Datetime from '../Datetime/Datetime';
 import './Schedule.css'
 
 const Schedule = ({schedule}) => {
@@ -6,7 +7,7 @@ const Schedule = ({schedule}) => {
     <Container>
       <Row>
         <div className="month">
-          <h1>Weekly Schedule</h1>
+          <Datetime />
         </div>
       </Row>
       <Row className="p-5 mb-4 rounded-3">
