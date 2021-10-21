@@ -1,24 +1,11 @@
-import { useEffect, useState } from 'react';
+import useFetch from '../useFetch/fetchSchedule';
 import Schedule from '../Schedule/Schedule';
 import Container from 'react-bootstrap/Container';
-import './Home.css'
+import './Home.css';
 
 const Home = () => {
-
-  const [schedule, setSchedule] = useState(null)
-
-  useEffect(()=>{
-    fetch('http://localhost:8000/marketSchedule')
-      .then((response) =>{
-        return response.json();
-      })
-      .then((data)=>{
-        // console.log(data)
-        setSchedule(data);
-      })
-  }, [])
-
-
+  const {data: schedule} = useFetch('http://localhost:8000/marketSchedule');
+  
   return ( 
     <Container>
       <div className="home">
