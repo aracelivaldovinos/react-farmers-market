@@ -6,22 +6,26 @@ const useFetch = (url) => {
   const [error, setError] =useState(null);
 
   useEffect(()=>{
-    fetch('http://localhost:8000/marketSchedule')
-      .then((response) =>{
-        if(!response.ok){
-          throw Error(response.statusText)
-        }
-        return response.json();
-      })
-      .then((data)=>{
-        console.log(data)
-        setData(data);
-      })
-      .catch(error=> {
-        setError(error.message)
-      })
-  }, [url])
-  return {data, error}
+    setTimeout(()=>{
+      fetch('http://localhost:8000/marketSchedule')
+        .then((response) =>{
+          if(!response.ok){
+            throw Error(response.statusText)
+          }
+          return response.json();
+        })
+        .then((data)=>{
+          console.log(data);
+          setData(data);
+          setLoading(false);
+        })
+        .catch(error=> {
+          setError(error.message);
+          setLoading(false);
+        })
+      }, 1000)
+    }, [url])
+  return {data, error, loading}
 }
  
 export default useFetch;

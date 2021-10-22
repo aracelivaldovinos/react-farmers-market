@@ -4,7 +4,7 @@ import {Row, Col} from 'react-bootstrap';
 import './Home.css';
 
 const Home = () => {
-  const {data: schedule, error} = useFetch('http://localhost:8000/marketSchedule');
+  const {data: schedule, error, loading} = useFetch('http://localhost:8000/marketSchedule');
   
   return ( 
       <Row>
@@ -18,7 +18,14 @@ const Home = () => {
           </Col>
           <Col>
           <div className="schedule">
-          {error && <div>{error}</div>}
+          {loading && 
+          <div className="alert alert-warning alert-dismissible fade show" role="alert">
+            <h2><strong>Loading...</strong></h2>
+          </div>}
+          {error && 
+          <div className="alert alert-danger d-flex align-items-center" role="alert">
+            <h3><strong>{error}</strong></h3>
+          </div>}
           {schedule && <Schedule schedule = {schedule}/>}
           </div>
           </Col>
