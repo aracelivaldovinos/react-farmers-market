@@ -1,5 +1,6 @@
 import Home from './Home/Home';
 import NavBar from './Navbar/Navbar';
+import Create from './Create/Create';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Produce from './Produce/Produce';
 
@@ -15,6 +16,9 @@ function App() {
           </Route>
           <Route path = "/produce">
             <Produce />
+          </Route>
+          <Route path = "/add/:id">
+            <Create />
           </Route>
         </Switch>
       </div>
