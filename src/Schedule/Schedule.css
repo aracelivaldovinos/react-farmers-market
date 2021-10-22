@@ -1,19 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:ital,wght@0,600;1,500&family=Rampart+One&display=swap');
+
 .schedule-col{
   padding: 15px;
   border: 1px solid #e7e7e7;
   background-color: white;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1); 
+  height: 35rem;
+  padding-top: 20px;
+}
+
+.schedule-col:hover{
+  box-shadow: 2px 6px 10px rgba(0,0,0,0.1); 
 }
 
 .schedule-item{
   text-align: center;
+  padding-top: 40%;
 }
 
 .schedule-day p {
   font-weight: bolder;
 }
 
+.schedule-content{
+  padding-top: 20px;
+}
+
 .month{
   text-align: center;
+  font-family: 'Rampart One', cursive;
+  color: white;
+
 }
 
 

@@ -1,10 +1,22 @@
+
 #jumbotron{
- background-image: url(https://images.unsplash.com/photo-1601172737447-a1bc284c5005?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZhcm1lcnMlMjBtYXJrZXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
- background-position: center;
+  /* background-color: rgba(181, 201, 154, 0.25); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpaperaccess.com/full/438025.jpg");
+  background-position: center;
  background-size: cover;
 }
 
-.home{
-  background-color: rgba(181, 201, 154, 0.25)
-  /* background-color: #efd3d7; */
+#jumbotron{
+  background: #000 url(https://wallpaperaccess.com/full/438025.jpg) 0 0 repeat; 
 }
+
+.jumbotron-col{
+  background-color: rgba(45, 106, 79, 0.75);
+  height: 100vh
+}
+
+#jumbotron-text{
+  text-align: center;
+  color: white;
+}
+

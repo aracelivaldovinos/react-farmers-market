@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:ital,wght@0,600;1,500&family=Rampart+One&display=swap');
+.navbar{
+  background-color: rgba(242, 132, 130, 0.75); 
+}
+
+.navbar-brand{
+  padding: 30px;
+}
+
+.navbar-brand-links{
+  text-decoration: none;
+  color: white;
+  font-family: 'Rampart One', cursive;
+  text-align: center;
+}
+
+.navbar-brand-links h2{
+  font-size: 35px;
+}
+
+.nav-links{
+  text-decoration: none;
+  font-size: 25px;
+  color: #1b4332;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+
+
+
+
+

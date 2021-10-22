@@ -1,23 +1,30 @@
 import useFetch from '../useFetch/fetchSchedule';
 import Schedule from '../Schedule/Schedule';
-import Container from 'react-bootstrap/Container';
+import {Row, Col} from 'react-bootstrap';
 import './Home.css';
 
 const Home = () => {
   const {data: schedule} = useFetch('http://localhost:8000/marketSchedule');
   
   return ( 
-    <Container>
-      <div className="home">
-        <div className="p-5 mb-4 rounded-3" id="jumbotron">
-          <div className="container-fluid py-5">
-            <h1 className="display-5 fw-bold">Farmers Market</h1>
-            <p className="col-md-8 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac urna nec lectus scelerisque suscipit. Pellentesque sed aliquam arcu. Donec blandit lectus a lacus euismod scelerisque. Vestibulum molestie ex id faucibus tincidunt. Donec viverra scelerisque maximus. Proin vel sollicitudin orci, quis interdum ligula. Vivamus justo dolor, rutrum vitae nisi sit amet, mollis sodales lacus. Curabitur ullamcorper orci ut turpis gravida tincidunt.</p>
+      <Row>
+        <Row className="mb-4" id="jumbotron">
+          <Col sm={4} className="jumbotron-col">
+          <div className="container-fluid py-5" id="jumbotron-text">
+            <h1 className="display-5 fw-bold">AO Dates & Times</h1>
+            <p className="fs-4">OPEN: Sat. 10:00am-1:30pm </p>
+            <button className="btn btn-primary btn-lg">Check times!</button>
           </div>
-        </div>
-        {schedule && <Schedule schedule = {schedule}/>}
-      </div>
-    </Container>
+          </Col>
+          <Col>
+          <div className="schedule">
+          {schedule && <Schedule schedule = {schedule}/>}
+          </div>
+          </Col>
+      </Row>
+        
+      </Row>
+      
    );
 }
  

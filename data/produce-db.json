@@ -11,7 +11,8 @@
           "Onions",
           "Potatoes",
           "Turnips"
-      ]
+      ],
+      "id": 1
     },
     {  
       "month": "February",
@@ -23,7 +24,8 @@
           "Mushrooms",
           "Onions",
           "Potatoes"
-      ]
+      ],
+      "id": 2
     },
     {  
       "month": "March",
@@ -36,7 +38,8 @@
           "Mushrooms",
           "Onions",
           "Potatoes"
-      ]
+      ],
+      "id": 3
     },
     {  
       "month": "April",
@@ -51,7 +54,8 @@
           "Mushrooms",
           "Onions",
           "Potatoes"
-      ]
+      ],
+      "id": 4
     },
     {  
       "month": "May",
@@ -66,7 +70,8 @@
           "Lettuce",
           "Potatoes",
           "Radishes"
-      ]
+      ],
+      "id": 5
     },
     {  
       "month": "June",
@@ -88,7 +93,8 @@
           "Potatoes",
           "Radishes",
           "Squash"
-      ]
+      ],
+      "id": 6
     },
     {  
       "month": "July",
@@ -124,7 +130,8 @@
           "Radishes",
           "Squash",
           "Turnips"
-      ]
+      ],
+      "id": 7
     },
     {  
       "month": "August",
@@ -164,7 +171,8 @@
           "Radishes",
           "Squash",
           "Turnips"
-      ]
+      ],
+      "id": 8
     },
     {  
       "month": "September",
@@ -198,7 +206,8 @@
           "Radishes",
           "Squash",
           "Turnips"
-      ]
+      ],
+      "id": 9
     },
     {  
       "month": "October",
@@ -231,7 +240,8 @@
           "Radishes",
           "Squash",
           "Turnips"
-      ]
+      ],
+      "id": 10
     },
     {  
       "month": "November",
@@ -248,7 +258,8 @@
           "Potatoes",
           "Squash",
           "Turnips"
-      ]
+      ],
+      "id": 11
     },
     {  
       "month": "December",
@@ -264,7 +275,8 @@
           "Onions",
           "Potatoes",
           "Turnips"
-      ]
+      ],
+      "id": 12
     }
   ]
 }

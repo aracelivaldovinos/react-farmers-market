@@ -1,0 +1,18 @@
+.fruit{
+  column-count: 2;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.fruit:hover {
+  box-shadow: 2px 6px 10px rgba(0,0,0,0.1);
+}
+
+.fruit:nth-child(even) {
+  background-color: lightsteelblue;
+}
+
+.text-center{
+  overflow: scroll;
+}
