@@ -6,7 +6,7 @@ import {Row, Col} from 'react-bootstrap';
 
 
 const Produce = () => {
-  const {data: produce} = useFetch('http://localhost:5000/availableProduce');
+  const {data: produce, error, loading} = useFetch('http://localhost:5000/availableProduce');
   const showDate = new Date();
   const month = (showDate.getMonth()+1);
 
@@ -22,6 +22,8 @@ const Produce = () => {
       </Col>
       <Col>
       <div className="produce">
+      {loading && <div>Loading...</div>}
+      {error && <div>{error}</div>}
       {produce && <ProduceList produce={produce.filter((item)=> item.id === month)}/>}
       </div>
       </Col>

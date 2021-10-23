@@ -7,7 +7,7 @@ const useFetch = (url) => {
 
   useEffect(()=>{
     setTimeout(()=>{
-      fetch('http://localhost:8000/marketSchedule')
+      fetch(url)
         .then((response) =>{
           if(!response.ok){
             throw Error(response.statusText)

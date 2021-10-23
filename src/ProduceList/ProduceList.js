@@ -1,10 +1,8 @@
-import { useParams } from 'react-router-dom';
 import  {Card, Row, Col}  from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './ProduceList.css';
 
 const ProduceList = ({produce}) => {
-  const { id } = useParams();
 
   return (
       <Row className="p-5 mb-4">
