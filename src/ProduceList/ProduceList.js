@@ -1,5 +1,5 @@
 import  {Card, Row, Col}  from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './ProduceList.css';
 
 const ProduceList = ({produce}) => {
@@ -12,11 +12,11 @@ const ProduceList = ({produce}) => {
               <div className="produce-item" key={item.id}>
               <Card.Header>
                 <h1>{item.month}</h1>
-                <Link to={`/add/${item.id}`}>
+                {/* <Link to={`/add/${item.id}`}>
                   <button type="button" className="btn btn-primary">
                     +
                   </button>
-                </Link>
+                </Link> */}
                 </Card.Header>
                 <Card.Body>
                   {item.selection.map((fruit) =>(

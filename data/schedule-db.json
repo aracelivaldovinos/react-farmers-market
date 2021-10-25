@@ -5,36 +5,43 @@
      "location": "Lents International",
      "hours": "9:00am - 2:00pm",
      "booth": "4A",
-     "id": 1
+     "id": 7
   },
   {  
      "day": "Monday",
      "location": "Pioneer Courthouse Square",
      "hours": "10:00am - 2:00pm",
      "booth": "7C",
-     "id": 2
+     "id": 1
   },
   {  
      "day": "Tuesday",
      "location": "Hillsboro",
      "hours": "5:00pm - 8:30pm",
      "booth": "1F",
-     "id": 3
+     "id": 2
   },
   {  
      "day": "Wednesday",
      "location": "Shemanski Park",
      "hours": "10:00am - 2:00pm",
      "booth": "3E",
-     "id": 4
+     "id": 3
   },
   {  
      "day": "Thursday",
      "location": "Northwest Portland",
      "hours": "2:00pm - 6:00pm",
      "booth": "6D",
-     "id": 5
+     "id": 4
   },
+  {  
+      "day": "Friday",
+      "location": "Not Open",
+      "hours": "Not Open",
+      "booth": "Not Open",
+      "id": 5
+   },
   {  
      "day": "Saturday",
      "location": "Beaverton",
