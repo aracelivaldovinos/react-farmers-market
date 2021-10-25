@@ -13,7 +13,7 @@
 
 
 ## Description
-_A website that displays AO Farmers Maket dates, times and avaialable produce to practice building a React applicatin and React Hooks._
+_A website that displays AO Farmers Maket dates, times and avaialable produce to practice building a React applicatin with React Hooks._
 
 ## Setup/Installation Requirements
 
